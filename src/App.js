@@ -16,8 +16,16 @@ function App() {
           alignItems="center"
           height={"80vh"}
         >
-          <Home/>
-          <Numbers/>
+          <Grid
+            container
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+            sx={{width:'fit-content'}}
+          >
+              <Home/>
+              <Numbers/>
+          </Grid>
         </Grid>
       </>
   );
